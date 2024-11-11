@@ -26,7 +26,8 @@ Create a directory named "MyLab" on the desktop.
 ```
 mkdir %userprofile%\Desktop\MyLab
 ```
-![o2](<output/Screenshot 2024-10-22 044645.png>)
+![Screenshot 2024-10-22 044645](https://github.com/user-attachments/assets/f7a8a997-ed13-4556-8dcd-160c9186d8a2)
+
 ## COMMAND AND OUTPUT
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
@@ -34,14 +35,18 @@ Change to the "MyLab" directory and create an empty text file named "MyFile.txt"
 cd %userprofile%\Desktop\MyLab
 type nul > MyFile.txt
 ```
-![o3](<output/Screenshot 2024-10-22 044709.png>)
+![Screenshot 2024-10-22 044709](https://github.com/user-attachments/assets/29199160-b1e1-44d3-aead-e0d9e224f150)
+
+
 ## COMMAND AND OUTPUT
 
 List the contents of the "MyLab" directory.
 ```
 dir %userprofile%\Desktop\MyLab
 ```
-![o4](<output/Screenshot 2024-10-22 045612.png>)
+![Screenshot 2024-10-22 045612](https://github.com/user-attachments/assets/69051a2a-3af3-49bc-aea8-289d63efc786)
+
+
 ## COMMAND AND OUTPUT
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
@@ -49,14 +54,17 @@ Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 mkdir %userprofile%\Desktop\Backup
 copy MyFile.txt %userprofile%\Desktop\Backup
 ```
-![o5](<output/Screenshot 2024-10-22 045625.png>)
+![Screenshot 2024-10-22 045625](https://github.com/user-attachments/assets/d401fdd1-ffee-4682-a3d3-10a48ae74ab3)
+
+
 ## COMMAND AND OUTPUT
 
 Move the "MyLab" directory to the "Documents" folder.
 ```
 move MyLab C:\Users\admin\Documents
 ```
-![o6](<output/Screenshot 2024-10-22 045646.png>)
+![Screenshot 2024-10-22 045646](https://github.com/user-attachments/assets/d0abedcb-de35-407d-8f84-24fdda83175e)
+
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
@@ -74,7 +82,7 @@ del %userprofile%\Documents\DocBackup\*.docx
 echo Backup and deletion completed successfully!
 ```
 ## OUTPUT
-![o1](<output/Screenshot 2024-10-22 044626.png>)
+![Screenshot 2024-10-22 044626](https://github.com/user-attachments/assets/c5086941-975e-4a4a-a3fe-a9420da58d5b)
 
 # RESULT:
 The commands/batch files are executed successfully.
